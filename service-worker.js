@@ -1,22 +1,11 @@
-const CACHE_NAME = 'gestao-pessoal-cache-v2';
+const CACHE_NAME = 'gestao-pessoal-cache-v3';
 
 const urlsToCache = [
   './',
   './index.html',
   './style.css',
   './app.js',
-  './manifest.json',
-
-  './storage/storage.js',
-
-  './modules/financeiro.js',
-  './modules/tarefas.js',
-  './modules/anotacoes.js',
-  './modules/agenda.js',
-  './modules/checklist.js',
-  './modules/pedidos.js',
-
-  './icons/apple-touch-icon.png'
+  './manifest.json'
 ];
 
 self.addEventListener('install', event => {
